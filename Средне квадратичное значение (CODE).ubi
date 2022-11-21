@@ -1,0 +1,240 @@
+<sixx.object sixx.id="0" sixx.type="BlocksLibraryElement" sixx.env="Arduino" >
+	<sixx.object sixx.id="1" sixx.name="typeClass" sixx.type="CodeUserBlock" sixx.env="Arduino" >
+		<sixx.object sixx.id="2" sixx.name="blocks" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+		<sixx.object sixx.id="3" sixx.name="label" sixx.type="String" sixx.env="Core" >SredQuard</sixx.object>
+		<sixx.object sixx.id="4" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+			<sixx.object sixx.id="5" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+				<sixx.object sixx.id="6" sixx.name="object" sixx.type="UniversalBlockInputOutput" sixx.env="Arduino" >
+					<sixx.object sixx.id="7" sixx.name="block" sixx.type="CodeUserBlock" sixx.env="Arduino" >
+						<sixx.object sixx.id="8" sixx.name="blocks" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+						<sixx.object sixx.id="9" sixx.name="label" sixx.type="String" sixx.env="Core" >Srednee</sixx.object>
+						<sixx.object sixx.id="10" sixx.name="inputs" sixx.type="OrderedCollection" sixx.env="Core" >
+							<sixx.object sixx.id="11" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+								<sixx.object sixx.id="12" sixx.name="object" sixx.type="UniversalBlockInputOutput" sixx.env="Arduino" >
+									<sixx.object sixx.name="block" sixx.idref="7" />
+									<sixx.object sixx.id="13" sixx.name="type" sixx.type="IntegerDataType" sixx.env="Arduino" >
+									</sixx.object>
+									<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+									<sixx.object sixx.id="14" sixx.name="name" sixx.type="String" sixx.env="Core" >input</sixx.object>
+									<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.id="15" sixx.name="id" sixx.type="String" sixx.env="Core" >47e6e8ae-2b86-4fec-9ffc-47fd509ef166</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.id="16" sixx.name="comment" sixx.type="String" sixx.env="Core" ></sixx.object>
+								<sixx.object sixx.id="17" sixx.name="id" sixx.type="String" sixx.env="Core" >697c4a09-7ab8-48b9-ac60-e95ad8a1d9a9</sixx.object>
+							</sixx.object>
+							<sixx.object sixx.id="18" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+								<sixx.object sixx.id="19" sixx.name="object" sixx.type="UniversalBlockInputOutput" sixx.env="Arduino" >
+									<sixx.object sixx.name="block" sixx.idref="7" />
+									<sixx.object sixx.id="20" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+									</sixx.object>
+									<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+									<sixx.object sixx.id="21" sixx.name="name" sixx.type="String" sixx.env="Core" >zamer</sixx.object>
+									<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.id="22" sixx.name="id" sixx.type="String" sixx.env="Core" >14e4d7f9-d98f-4c7e-863d-3bb6e4f4bd99</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.name="comment" sixx.idref="16" />
+								<sixx.object sixx.id="23" sixx.name="id" sixx.type="String" sixx.env="Core" >0ffb6c50-0e48-413a-80c2-441c9927dec5</sixx.object>
+							</sixx.object>
+						</sixx.object>
+						<sixx.object sixx.id="24" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+							<sixx.object sixx.id="25" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+								<sixx.object sixx.id="26" sixx.name="object" sixx.type="UniversalBlockInputOutput" sixx.env="Arduino" >
+									<sixx.object sixx.name="block" sixx.idref="7" />
+									<sixx.object sixx.id="27" sixx.name="type" sixx.type="FloatDataType" sixx.env="Arduino" >
+									</sixx.object>
+									<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.id="28" sixx.name="name" sixx.type="String" sixx.env="Core" >output</sixx.object>
+									<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.id="29" sixx.name="id" sixx.type="String" sixx.env="Core" >2b43a6e0-f302-435d-9af9-cc4998371199</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.name="comment" sixx.idref="16" />
+								<sixx.object sixx.id="30" sixx.name="id" sixx.type="String" sixx.env="Core" >4aba1a14-63f1-44e5-b6f9-aa1facc72133</sixx.object>
+							</sixx.object>
+						</sixx.object>
+						<sixx.object sixx.id="31" sixx.name="variables" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+						<sixx.object sixx.id="32" sixx.name="id" sixx.type="String" sixx.env="Core" >a17b2fcd-5351-47fe-b1b8-3e7a4717200a</sixx.object>
+						<sixx.object sixx.id="33" sixx.name="name" sixx.type="String" sixx.env="Core" >Среднее значение</sixx.object>
+						<sixx.object sixx.id="34" sixx.name="parametrs" sixx.type="OrderedCollection" sixx.env="Core" >
+							<sixx.object sixx.id="35" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+								<sixx.object sixx.id="36" sixx.name="object" sixx.type="UserBlockParametr" sixx.env="Arduino" >
+									<sixx.object sixx.id="37" sixx.name="name" sixx.type="String" sixx.env="Core" >Количество замеров</sixx.object>
+									<sixx.object sixx.name="type" sixx.idref="13" />
+									<sixx.object sixx.name="hasDefaultValue" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.name="hasUpRange" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.name="hasDownRange" sixx.type="False" sixx.env="Core" />
+									<sixx.object sixx.name="comment" sixx.idref="16" />
+									<sixx.object sixx.id="38" sixx.name="id" sixx.type="String" sixx.env="Core" >aaf4e16c-0b90-4931-9f51-3fde170b54d7</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.id="39" sixx.name="id" sixx.type="String" sixx.env="Core" >d256daa9-80f0-406a-a5ca-60a47d6f5db5</sixx.object>
+							</sixx.object>
+						</sixx.object>
+						<sixx.object sixx.id="40" sixx.name="loopCodePart" sixx.type="CodeUserBlockLoopCodePart" sixx.env="Arduino" >
+							<sixx.object sixx.name="code" sixx.idref="16" />
+						</sixx.object>
+						<sixx.object sixx.id="41" sixx.name="setupCodePart" sixx.type="CodeUserBlockSetupCodePart" sixx.env="Arduino" >
+							<sixx.object sixx.name="code" sixx.idref="16" />
+						</sixx.object>
+						<sixx.object sixx.id="42" sixx.name="declareCodePart" sixx.type="CodeUserBlockDeclareCodePart" sixx.env="Arduino" >
+							<sixx.object sixx.id="43" sixx.name="code" sixx.type="OrderedCollection" sixx.env="Core" >
+								<sixx.object sixx.id="44" sixx.type="CodeUserBlockDeclareStandartBlock" sixx.env="Arduino" >
+									<sixx.object sixx.id="45" sixx.name="name" sixx.type="String" sixx.env="Core" >array</sixx.object>
+									<sixx.object sixx.id="46" sixx.name="lastPart" sixx.type="String" sixx.env="Core" >[Количество замеров];</sixx.object>
+									<sixx.object sixx.id="47" sixx.name="firstPart" sixx.type="String" sixx.env="Core" >int</sixx.object>
+								</sixx.object>
+								<sixx.object sixx.id="48" sixx.type="CodeUserBlockDeclareStandartBlock" sixx.env="Arduino" >
+									<sixx.object sixx.id="49" sixx.name="name" sixx.type="String" sixx.env="Core" >temp</sixx.object>
+									<sixx.object sixx.id="50" sixx.name="lastPart" sixx.type="String" sixx.env="Core" >;</sixx.object>
+									<sixx.object sixx.id="51" sixx.name="firstPart" sixx.type="String" sixx.env="Core" >bool</sixx.object>
+								</sixx.object>
+							</sixx.object>
+						</sixx.object>
+						<sixx.object sixx.id="52" sixx.name="functionCodePart" sixx.type="CodeUserBlockFunctuinCodePart" sixx.env="Arduino" >
+							<sixx.object sixx.id="53" sixx.name="code" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+						</sixx.object>
+						<sixx.object sixx.id="54" sixx.name="userLibraries" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+					</sixx.object>
+					<sixx.object sixx.id="55" sixx.name="type" sixx.type="IntegerDataType" sixx.env="Arduino" >
+					</sixx.object>
+					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+					<sixx.object sixx.name="name" sixx.idref="14" />
+					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.id="56" sixx.name="id" sixx.type="String" sixx.env="Core" >e7b4233e-27c8-40cf-95eb-e1ce9aa3f7e0</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.name="comment" sixx.idref="16" />
+				<sixx.object sixx.name="id" sixx.idref="17" />
+			</sixx.object>
+			<sixx.object sixx.id="57" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+				<sixx.object sixx.id="58" sixx.name="object" sixx.type="UniversalBlockInputOutput" sixx.env="Arduino" >
+					<sixx.object sixx.name="block" sixx.idref="7" />
+					<sixx.object sixx.id="59" sixx.name="type" sixx.type="BooleanDataType" sixx.env="Arduino" >
+					</sixx.object>
+					<sixx.object sixx.name="isInput" sixx.type="True" sixx.env="Core" />
+					<sixx.object sixx.name="name" sixx.idref="21" />
+					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.id="60" sixx.name="id" sixx.type="String" sixx.env="Core" >40b09499-fd1a-4a05-8127-7a8a90066bf6</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.name="comment" sixx.idref="16" />
+				<sixx.object sixx.name="id" sixx.idref="23" />
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.id="61" sixx.name="outputs" sixx.type="OrderedCollection" sixx.env="Core" >
+			<sixx.object sixx.id="62" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+				<sixx.object sixx.id="63" sixx.name="object" sixx.type="UniversalBlockInputOutput" sixx.env="Arduino" >
+					<sixx.object sixx.name="block" sixx.idref="7" />
+					<sixx.object sixx.id="64" sixx.name="type" sixx.type="FloatDataType" sixx.env="Arduino" >
+					</sixx.object>
+					<sixx.object sixx.name="isInput" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.name="name" sixx.idref="28" />
+					<sixx.object sixx.name="isNot" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.id="65" sixx.name="id" sixx.type="String" sixx.env="Core" >0fec65a0-b8f8-4019-95c9-2e6fc0992139</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.name="comment" sixx.idref="16" />
+				<sixx.object sixx.name="id" sixx.idref="30" />
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.id="66" sixx.name="variables" sixx.type="OrderedCollection" sixx.env="Core" ></sixx.object>
+		<sixx.object sixx.id="67" sixx.name="id" sixx.type="String" sixx.env="Core" >c4da4ac4-7271-4767-b112-16afa196b037</sixx.object>
+		<sixx.object sixx.id="68" sixx.name="name" sixx.type="String" sixx.env="Core" >Средне квадратичное значение</sixx.object>
+		<sixx.object sixx.id="69" sixx.name="info" sixx.type="Text" sixx.env="Core" >
+			<sixx.object sixx.id="70" sixx.name="string" sixx.type="String" sixx.env="Core" >Блок для расчета среднеквадратичного  из заданного количества замеров. 
+Работает следующим образом. По переднему фронту на входе zamer он записывает значения со входа input в очередную ячейку массива. 
+По достижении заданного количества замеров из них расчитывается значение по формулу output = sqrt &#40;&#40;1/ Количество замеров&#41; &#42; сумму квадратов значений замеров&#41;.
+После чего процесс замеров начинается сначала</sixx.object>
+			<sixx.object sixx.id="71" sixx.name="runs" sixx.type="RunArray" sixx.env="Core" >
+				<sixx.object sixx.id="72" sixx.name="runs" sixx.type="Array" sixx.env="Core" >
+					<sixx.object sixx.id="73" sixx.type="SmallInteger" sixx.env="Core" >407</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.id="74" sixx.name="values" sixx.type="Array" sixx.env="Core" >
+					<sixx.object sixx.type="UndefinedObject" sixx.env="Core" />
+				</sixx.object>
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.id="75" sixx.name="parametrs" sixx.type="OrderedCollection" sixx.env="Core" >
+			<sixx.object sixx.id="76" sixx.type="InputsOutputsAdaptorForUserBlock" sixx.env="Arduino" >
+				<sixx.object sixx.id="77" sixx.name="object" sixx.type="UserBlockParametr" sixx.env="Arduino" >
+					<sixx.object sixx.name="name" sixx.idref="37" />
+					<sixx.object sixx.name="type" sixx.idref="13" />
+					<sixx.object sixx.name="hasDefaultValue" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.name="hasUpRange" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.name="hasDownRange" sixx.type="False" sixx.env="Core" />
+					<sixx.object sixx.name="comment" sixx.idref="16" />
+					<sixx.object sixx.name="id" sixx.idref="38" />
+					<sixx.object sixx.id="78" sixx.name="currentValue" sixx.type="SmallInteger" sixx.env="Core" >50</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.name="comment" sixx.idref="16" />
+				<sixx.object sixx.name="id" sixx.idref="39" />
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.id="79" sixx.name="loopCodePart" sixx.type="CodeUserBlockLoopCodePart" sixx.env="Arduino" >
+			<sixx.object sixx.id="80" sixx.name="code" sixx.type="Text" sixx.env="Core" >
+				<sixx.object sixx.id="81" sixx.name="string" sixx.type="String" sixx.env="Core" >if &#40; zamer &#41; {if &#40;&#33; temp &#41; {
+ temp =1;
+ newData&#40; input  &#41; ;
+}} else { temp = 0; } </sixx.object>
+				<sixx.object sixx.id="82" sixx.name="runs" sixx.type="RunArray" sixx.env="Core" >
+					<sixx.object sixx.id="83" sixx.name="runs" sixx.type="Array" sixx.env="Core" >
+						<sixx.object sixx.id="84" sixx.type="SmallInteger" sixx.env="Core" >82</sixx.object>
+					</sixx.object>
+					<sixx.object sixx.id="85" sixx.name="values" sixx.type="Array" sixx.env="Core" >
+						<sixx.object sixx.type="UndefinedObject" sixx.env="Core" />
+					</sixx.object>
+				</sixx.object>
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.id="86" sixx.name="setupCodePart" sixx.type="CodeUserBlockSetupCodePart" sixx.env="Arduino" >
+			<sixx.object sixx.name="code" sixx.idref="16" />
+		</sixx.object>
+		<sixx.object sixx.id="87" sixx.name="declareCodePart" sixx.type="CodeUserBlockDeclareCodePart" sixx.env="Arduino" >
+			<sixx.object sixx.id="88" sixx.name="code" sixx.type="OrderedCollection" sixx.env="Core" >
+				<sixx.object sixx.id="89" sixx.type="CodeUserBlockDeclareStandartBlock" sixx.env="Arduino" >
+					<sixx.object sixx.id="90" sixx.name="name" sixx.type="String" sixx.env="Core" >array</sixx.object>
+					<sixx.object sixx.id="91" sixx.name="lastPart" sixx.type="String" sixx.env="Core" >[Количество замеров];</sixx.object>
+					<sixx.object sixx.id="92" sixx.name="firstPart" sixx.type="String" sixx.env="Core" >int</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.id="93" sixx.type="CodeUserBlockDeclareStandartBlock" sixx.env="Arduino" >
+					<sixx.object sixx.id="94" sixx.name="name" sixx.type="String" sixx.env="Core" >temp</sixx.object>
+					<sixx.object sixx.id="95" sixx.name="lastPart" sixx.type="String" sixx.env="Core" >;</sixx.object>
+					<sixx.object sixx.id="96" sixx.name="firstPart" sixx.type="String" sixx.env="Core" >bool</sixx.object>
+				</sixx.object>
+				<sixx.object sixx.id="97" sixx.type="CodeUserBlockDeclareStandartBlock" sixx.env="Arduino" >
+					<sixx.object sixx.id="98" sixx.name="name" sixx.type="String" sixx.env="Core" >index</sixx.object>
+					<sixx.object sixx.id="99" sixx.name="lastPart" sixx.type="String" sixx.env="Core" >=0;</sixx.object>
+					<sixx.object sixx.id="100" sixx.name="firstPart" sixx.type="String" sixx.env="Core" >int</sixx.object>
+				</sixx.object>
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.id="101" sixx.name="functionCodePart" sixx.type="CodeUserBlockFunctuinCodePart" sixx.env="Arduino" >
+			<sixx.object sixx.id="102" sixx.name="code" sixx.type="OrderedCollection" sixx.env="Core" >
+				<sixx.object sixx.id="103" sixx.type="CodeUserBlockFunction" sixx.env="Arduino" >
+					<sixx.object sixx.id="104" sixx.name="functionBody" sixx.type="Text" sixx.env="Core" >
+						<sixx.object sixx.id="105" sixx.name="string" sixx.type="String" sixx.env="Core" >if &#40; index &lt;  &#40;Количество замеров &#41; &#41;    { array [ index ] = value; index++; return; }
+long res =0;
+for&#40;int i=0; i &lt; Количество замеров ; i++ &#41; {res=res+ pow&#40;array[i]&#44;2&#41;; }
+ output = sqrt&#40;&#40;1.0/ Количество замеров &#41;&#42;res&#41; ;
+ index =0;
+</sixx.object>
+						<sixx.object sixx.id="106" sixx.name="runs" sixx.type="RunArray" sixx.env="Core" >
+							<sixx.object sixx.id="107" sixx.name="runs" sixx.type="Array" sixx.env="Core" >
+								<sixx.object sixx.id="108" sixx.type="SmallInteger" sixx.env="Core" >233</sixx.object>
+							</sixx.object>
+							<sixx.object sixx.id="109" sixx.name="values" sixx.type="Array" sixx.env="Core" >
+								<sixx.object sixx.type="UndefinedObject" sixx.env="Core" />
+							</sixx.object>
+						</sixx.object>
+					</sixx.object>
+					<sixx.object sixx.id="110" sixx.name="parsesFunctionName" sixx.type="CodeUserBlockFunctionName" sixx.env="Arduino" >
+						<sixx.object sixx.id="111" sixx.name="declare" sixx.type="String" sixx.env="Core" >void</sixx.object>
+						<sixx.object sixx.id="112" sixx.name="name" sixx.type="String" sixx.env="Core" >newData</sixx.object>
+						<sixx.object sixx.id="113" sixx.name="parametrs" sixx.type="OrderedCollection" sixx.env="Core" >
+							<sixx.object sixx.id="114" sixx.type="CodeUserBlockFunctionParametr" sixx.env="Arduino" >
+								<sixx.object sixx.id="115" sixx.name="declare" sixx.type="String" sixx.env="Core" >int</sixx.object>
+								<sixx.object sixx.id="116" sixx.name="name" sixx.type="String" sixx.env="Core" >value</sixx.object>
+							</sixx.object>
+						</sixx.object>
+					</sixx.object>
+				</sixx.object>
+			</sixx.object>
+		</sixx.object>
+		<sixx.object sixx.name="userLibraries" sixx.idref="54" />
+	</sixx.object>
+</sixx.object>
